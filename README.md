@@ -1,13 +1,12 @@
 # Orders Dashboard — React + FastAPI
 
-> **Sample project.** Diagnosing and fixing integration issues in a React + FastAPI app.
+An orders and clients dashboard for small-business operations: JWT auth with role-based access,
+a filterable and paginated orders table, client management, and a KPI dashboard with revenue
+trends over the last 90 days.
 
-This is a **demo / portfolio project**, not a production service and not a real business. It exists
-to show one specific skill: **finding the root cause of bugs in an existing React + FastAPI
-codebase and fixing them with targeted changes instead of rewrites.**
-
-"OpsBoard" is a small orders-and-clients dashboard for a fictional small business. The interesting
-part is not the app — it's the three branches.
+The repository is also a case study in **finding the root cause of bugs in an existing
+React + FastAPI codebase and fixing them with targeted changes instead of rewrites** — it carries
+a working app, a branch holding nine realistic integration bugs, and one reviewed commit per fix.
 
 ---
 
@@ -55,7 +54,7 @@ Then seed the database (~20 clients, ~300 orders across the last 90 days):
 docker compose exec api python -m app.seed
 ```
 
-### Demo logins
+### Seeded accounts
 
 | Role | Email | Password |
 |---|---|---|

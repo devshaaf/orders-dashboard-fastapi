@@ -7,7 +7,7 @@ settings = get_settings()
 
 app = FastAPI(
     title="Orders Dashboard API",
-    description="Sample project: orders and clients dashboard for a small business.",
+    description="An orders and clients dashboard API for small-business operations.",
     version="0.1.0",
 )
 

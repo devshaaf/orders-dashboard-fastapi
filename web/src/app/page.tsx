@@ -4,13 +4,10 @@ export default function Home() {
   return (
     <main className="mx-auto flex min-h-screen max-w-2xl flex-col justify-center gap-6 px-6">
       <div>
-        <p className="text-sm font-medium uppercase tracking-wide text-neutral-500">
-          Sample project
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold">Orders Dashboard</h1>
+        <h1 className="text-3xl font-semibold">Orders Dashboard</h1>
         <p className="mt-3 text-neutral-600">
-          A small orders-and-clients dashboard, used as a case study in diagnosing and fixing
-          integration issues across a React and FastAPI stack.
+          Track clients, orders and revenue in one place. Filter and search the order book,
+          manage client records, and follow revenue trends across the last 90 days.
         </p>
       </div>
 
